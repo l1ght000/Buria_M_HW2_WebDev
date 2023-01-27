@@ -1,0 +1,191 @@
+.hidden{
+    display: none;
+  }
+  body{
+    color: #EDEDED;
+  }
+  .container{
+    width: 430px;
+    margin: 0 auto;
+    border: solid 1px rgb(0, 0, 0);
+  
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 82px);
+    grid-column-gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .box-color{
+    background-color: #000;
+  }
+  .box-color2{
+    background-color: #EDEDED;
+  }
+  .box-color3{
+    background-color: #838383;
+  }
+  .box-color4{
+    background-color: #383838;
+  }
+  #main-header{
+    background-color: #838383;
+    width: 390px;
+    height: 104px;
+  }
+  #header-logo{
+    width: 82px;
+    height: 56px;
+    grid-column: 1/1;
+    margin-top: 25px;
+  }
+  #menu{
+    width: 35px;
+    height: 35px;
+    grid-column: -1/-1;
+    margin-top: 35px;
+    margin-left: -15px;
+    
+  }
+  #beer-image{
+    width: 390px;
+    height: 342px;
+    grid-column: 1/-1;
+    margin-top: 30px;
+     
+}
+  #beer-text{
+    width: 390px;
+    height: 144px;
+    grid-column: 1/-1;
+    margin-top: 30px;
+    
+  }
+  #beer-text2{
+    width: 390px;
+    height: 48px;
+    grid-column: 1/-1;
+    margin-top: 15px;
+    
+  }
+  #button-beer-learn-more{
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    grid-column: 3/4;
+    margin-top: 10px;
+  }
+  #company-image1{
+    width: 390px;
+    height: 390px;
+    grid-column: 1/-1;
+    margin-top: 15px;
+  
+  }
+  #company-image2{
+    width: 390px;
+    height: 390px;
+    grid-column: 1/-1;
+    margin-top: 15px;
+  }
+  #company-image3{
+    width: 390px;
+    height: 390px;
+    grid-column: 1/-1;
+    margin-top: 15px;
+  }
+  #company-image4{
+    width: 390px;
+    height: 390px;
+    grid-column: 1/-1;
+    margin-top: 15px;
+  }
+  #company-text{
+    width: 390px;
+    height: 50px;
+    grid-column: 1/-1;
+    margin-top: 20px;
+  }
+  #company-text2{
+    width: 390px;
+    height: 20px;
+    grid-column: 1/-1;
+    margin-top: 15px;
+  }
+
+  #company-button{
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    grid-column: 3/4;
+    margin-top: 10px;
+  }
+  .contactus{
+    background-color: #838383;
+    margin-top: 10px;
+  }
+  #contact-form{
+    width: 390px;
+    height: 500px;
+    grid-column: 1/-1;
+    margin-top: 20px;
+  }
+  #contact-text1{
+    width: 390px;
+    height: 50px;
+    grid-column: 1/-1;
+    margin-top: 10px;
+  }
+  #contact-text2{
+    width: 390px;
+    height: 25px;
+    grid-column: 1/-1;
+    margin-top: 5px;
+  }
+  
+  #contact-text3{
+    width: 390px;
+    height: 25px;
+    grid-column: 1/-1;
+    margin-top: 5px;
+  }
+  #contact-text4{
+    width: 390px;
+    height: 25px;
+    grid-column: 1/-1;
+    margin-top: 5px;
+  }
+  footer{
+    background-color: #000;
+  }
+  #footer-subscribe{
+    grid-column: 1/-1;
+    width: 390px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+  #footer-text{
+    width: 145px;
+    height: 60px;
+    grid-column: 1/-1;
+    margin-top: 15px;
+  }
+  
+  #footer-text2{
+    width: 145px;
+    height: 60px;
+    grid-column: -1/6;
+    margin-left: -125px;
+    margin-top: 15px;
+  }
+  #footer-img{
+    grid-column: 1/-1;
+    width: 390px;
+    height: 390px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  
+  }
+    
