@@ -1,0 +1,218 @@
+.hidden{
+    display: none;
+  }
+  
+  .container{
+    width: 1920px;
+    margin: 0 auto;
+  
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-column-gap: 40px;
+  }
+  
+  .box-color{
+    background-color: #000;
+  }
+  .box-color2{
+    background-color: #EDEDED;
+  }
+  .box-color3{
+    background-color: #838383;
+  }
+  .box-color4{
+    background-color: #383838;
+  }
+  #main-header{
+    background-color: #838383;
+    width: 1920px;
+    height: 150px;
+  }
+  #header-logo{
+    width: 216px;
+    height: 84px;
+    grid-column: 2/3;
+    margin-top: 35px;
+  }
+  #header-nav{
+    width: 940px;
+    height: 33px;
+    grid-column: 5/8;
+    margin-top: 55px;
+  }
+  #menu{
+    width: 55px;
+    height: 55px;
+    grid-column: 13/13;
+    margin-top: 45px;
+  }
+  #aboutbeer{
+    background-color: #EDEDED;
+    width: 1920px;
+    height: 931px;
+  }
+  #beer-text{
+    width: 941px;
+    height: 263px;
+    grid-column: 2/7;
+    margin-top: 50px;
+  }
+  #beer-text2{
+    width: 801px;
+    height: 76px;
+    grid-column: 2/5;
+    margin-top: 35px;
+  }
+  #beer-image{
+    width: 520px;
+    height: 763px;
+    grid-column: 10/11;
+    margin-top: -375px;
+  }
+  #button-beer-learn-more{
+    width: 295px;
+    height: 120px;
+    border-radius: 20px;
+    grid-column: 2/3;
+    margin-top: 161px;
+  }
+  #aboutcompany{
+    background-color: #EDEDED;
+    width: 1920px;
+    height: 944px;
+  }
+  #company-text{
+    width: 850px;
+    height: 263px;
+    grid-column: 2/7;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  #company-text2{
+    width: 700px;
+    height: 76px;
+    grid-column: 2/5;
+    margin-top: 35px;
+    margin-left: 10px;
+  }
+  #company-button{
+    width: 295px;
+    height: 120px;
+    border-radius: 20px;
+    grid-column: 2/3;
+    margin-left: 10px;
+    margin-top: 130px;
+  }
+  #company-image1{
+    width: 380px;
+    height: 440px;
+    grid-column: 8/9;
+    margin-top: -375px;
+    margin-left: 70px;
+  
+  }
+  #company-image2{
+    width: 380px;
+    height: 440px;
+    grid-column: 11/11;
+    margin-left: 50px;
+    margin-top: -375px;
+   
+  }
+  #company-image3{
+    width: 380px;
+    height: 350px;
+    grid-column: 8/9;
+    margin-left: 70px;
+    margin-top: -70px;
+  }
+  #company-image4{
+    width: 380px;
+    height: 350px;
+    grid-column: 11/11;
+    margin-left: 50px;
+    margin-top: -70px;
+  }
+  .contactus{
+    background-color: #838383;
+  }
+  #contact-text1{
+    width: 941px;
+    height: 263px;
+    grid-column: 2/7;
+    margin-top: 50px;
+  }
+  #contact-text2{
+    width: 801px;
+    height: 76px;
+    grid-column: 2/5;
+    margin-top: 35px;
+  }
+  
+  #contact-text3{
+    width: 941px;
+    height: 263px;
+    grid-column: 2/7;
+    margin-top: 50px;
+  }
+  #contact-text4{
+    width: 801px;
+    height: 76px;
+    grid-column: 2/5;
+  }
+  #contact-text1, #contact-text2, #contact-text3, #contact-text4{
+    margin-top: 30px;
+  }
+  #contact-form{
+    width: 660px;
+    height: 833px;
+    grid-column: 9/10;
+    margin-top: -660px;
+    
+  }
+  
+  footer{
+    width: 1920px;
+    height: 483px;
+    background-color: #000;
+  }
+  #footer-img{
+    grid-column: 2/7;
+    width: 520px;
+    height: 483px;
+    margin-left: 30px;
+  
+  }
+  #footer-subscribe{
+    grid-column: 5/12;
+    width: 1085px;
+    height: 96px;
+    margin-top: -385px;
+    margin-left: 700px;
+  }
+  
+  #footer-text{
+    width: 240px;
+    height: 130px;
+    grid-column: 5/6;
+    margin-top: 50px;
+    margin-left: 700px;
+  }
+  
+  #footer-text2{
+    width: 240px;
+    height: 130px;
+    grid-column: 8/9;
+    margin-top: -130px;
+    margin-left: 1100px;
+  }
+  
+  #footer-text3{
+    width: 240px;
+    height: 130px;
+    grid-column: 11/12;
+    margin-top: -130px;
+    margin-left: 1500px;
+  }
